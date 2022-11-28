@@ -1,0 +1,22 @@
+---
+connections:
+  - name: Alypesa
+    server: ANDROMEDA\SQLSERVER
+    database: DB1
+    user: icaragent
+    password: toyicaragentota
+  - name: Enma2RM
+    server: ANDROMEDA\SQLSERVER
+    database: DB2
+    user: icaragent
+    password: toyicaragentota
+  - name: Faycan
+    server: ANDROMEDA\SQLSERVER
+    database: DB2
+    user: icaragent
+    password: toyicaragentota
+  - name: Toronto
+    server: Paquistan
+    database: DB45
+    user: icaragents
+    password: toyicaragentotas

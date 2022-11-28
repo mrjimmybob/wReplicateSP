@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mr_ji\\source\\repos\\wReplicateSP\\wReplicateSP\\wReplicateSP.csproj": {}
+    "C:\\Users\\mr_ji\\source\\repos\\wReplicateSP\\wReplicateSP\\wReplicateSP\\wReplicateSP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mr_ji\\source\\repos\\wReplicateSP\\wReplicateSP\\wReplicateSP.csproj": {
+    "C:\\Users\\mr_ji\\source\\repos\\wReplicateSP\\wReplicateSP\\wReplicateSP\\wReplicateSP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mr_ji\\source\\repos\\wReplicateSP\\wReplicateSP\\wReplicateSP.csproj",
+        "projectUniqueName": "C:\\Users\\mr_ji\\source\\repos\\wReplicateSP\\wReplicateSP\\wReplicateSP\\wReplicateSP.csproj",
         "projectName": "wReplicateSP",
-        "projectPath": "C:\\Users\\mr_ji\\source\\repos\\wReplicateSP\\wReplicateSP\\wReplicateSP.csproj",
+        "projectPath": "C:\\Users\\mr_ji\\source\\repos\\wReplicateSP\\wReplicateSP\\wReplicateSP\\wReplicateSP.csproj",
         "packagesPath": "C:\\Users\\mr_ji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mr_ji\\source\\repos\\wReplicateSP\\wReplicateSP\\obj\\",
+        "outputPath": "C:\\Users\\mr_ji\\source\\repos\\wReplicateSP\\wReplicateSP\\wReplicateSP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,20 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.18.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +77,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
